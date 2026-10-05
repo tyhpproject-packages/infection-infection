@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/infection-infection",
+    "description": "Tyhp type definitions for infection/infection 0.35.4.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "0.35.4",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/infection-infection-impl": "~0.35.4.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/infection-infection-impl"
+        }
+    }
+}
